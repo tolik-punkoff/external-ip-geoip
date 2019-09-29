@@ -1,0 +1,32 @@
+body 
+{
+	margin: 5px;
+	width: 380px;
+	height: 180px;
+	font-family: 'Verdana';font-size: 22px;
+	font-size: 85%;
+	word-wrap: break-word;
+	color: Black;
+	background-color:gray;
+}
+ 
+.table
+	{
+		display:table;
+		border:1px solid yellow;
+		width:100%;
+	}
+
+.row
+	{
+		display:table-row;
+	}
+
+.col
+	{
+		display:table-cell;
+		border:0px solid black;
+		width:50%;
+		background-color: gray;
+		vertical-align: middle;
+	}

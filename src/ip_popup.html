@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="ip_popup.css"/>
+		<title>External IP GeoIP Control Panel</title>		
+	</head>
+	
+	<body>
+		<div style="font-size: 125%; ">
+			<center>&nbsp;<b>External IP GeoIP Control Panel</b>&nbsp;</center>
+		</div>
+		<br>
+		
+		<div class="table">
+			<br>
+			<div class="row">
+				<div class="col">
+					<b>IP: </b>
+				</div>
+				<div class="col">
+					<b><input type="text" name="txtIP" id="ip" readonly></b>
+				</div>
+				<div class="col">
+				
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<b>Country: </b>
+				</div>
+				<div class="col">
+					<b><input type="text" name="txtCountry" id="country" readonly></b>
+				</div>
+				<div class="col">
+					<img id="flag" src="flags/0none.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<b>Script: </b>
+				</div>
+				<div class="col">
+					<b><input type="text" name="txtScript" id="script"></b>
+				</div>
+				<div class="col">
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<button name="btnSave" id="save">Save</button>
+				</div>
+				<div class="col">
+					
+				</div>
+				<div class="col">
+					<button name="btnDefault" id="restore" >Restore defaults</button>
+				</div>
+			</div>
+		</div>
+		
+		<script src="jquery-3.4.1.min.js"></script>
+		<script src="ip_popup.js"></script>
+	</body>
+</html>
