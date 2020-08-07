@@ -22,3 +22,9 @@ Firefox Add-On. Display you external IP and IP country
 ### Popup (network error)
 
 ![network error](/screenshots/popup-error.png)
+
+### Unknown Country
+
+![Unknown Country](/screenshots/unknown-ip1.png)
+
+![Unknown Country](/screenshots/unknown-ip2.png)
